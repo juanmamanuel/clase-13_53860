@@ -1,13 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.flex-row, #peliculas .lista-pelis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.flex-column, #peliculas .lista-pelis div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.button, #peliculas .lista-pelis div button {
+  padding: 5px;
+  background-color: aqua;
+  color: black;
+  border-radius: 15px; }
+
+.text-center, .main-index h1 {
+  text-align: center;
+  padding: 10px; }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
 
 .header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ff7b00; }
+  background-color: #8ECAE6; }
   .header .logo img {
     width: 350px; }
   .header .nav ul {
@@ -19,3 +43,15 @@
       .header .nav ul li a {
         text-decoration: none;
         padding: 0 10px; }
+
+.main-index h1 {
+  font-family: "Glass Antiqua", cursive;
+  font-size: 45px; }
+
+#peliculas h2, #peliculas h3 {
+  text-align: center;
+  padding: 10px; }
+
+#peliculas .lista-pelis div {
+  padding: 10px;
+  margin: 10px; }
